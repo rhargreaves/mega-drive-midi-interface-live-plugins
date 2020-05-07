@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 155.0, 404.0, 944.0, 430.0 ],
+		"rect" : [ 374.0, 426.0, 944.0, 430.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -64,15 +64,17 @@
 				"box" : 				{
 					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"cantchange" : 1,
+					"fontface" : 1,
+					"fontname" : "Ableton Sans Bold",
 					"id" : "obj-27",
 					"maxclass" : "number",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 133.0, 51.0, 50.0, 22.0 ],
+					"patching_rect" : [ 133.0, 51.0, 55.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 5.0, 24.416666567325592, 25.99609375, 22.0 ],
+					"presentation_rect" : [ 5.0, 24.416666567325592, 20.333333551883698, 23.0 ],
 					"textcolor" : [ 1.0, 0.709803921568627, 0.196078431372549, 1.0 ],
 					"triangle" : 0
 				}
@@ -106,7 +108,7 @@
 				"box" : 				{
 					"id" : "obj-5",
 					"maxclass" : "newobj",
-					"numinlets" : 2,
+					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 79.0, 276.0, 157.0, 22.0 ],
@@ -118,7 +120,7 @@
 				"box" : 				{
 					"id" : "obj-21",
 					"maxclass" : "newobj",
-					"numinlets" : 2,
+					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 6.0, 235.0, 164.0, 22.0 ],
@@ -451,6 +453,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "Total Level[3]",
+							"parameter_modmode" : 4,
 							"parameter_shortname" : "T. Level",
 							"parameter_type" : 1,
 							"parameter_unitstyle" : 0
@@ -517,22 +520,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-29", 0 ],
 					"source" : [ "obj-1", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-21", 1 ],
-					"order" : 1,
-					"source" : [ "obj-16", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-5", 1 ],
-					"order" : 0,
-					"source" : [ "obj-16", 0 ]
 				}
 
 			}
@@ -644,7 +631,7 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "MD_MIDI_CC_Scaler.maxpat",
-				"bootpath" : "~/Music/Ableton/User Library/Presets/MIDI Effects/Max MIDI Effect",
+				"bootpath" : "~/Projects/mega-drive-midi-live-plugins",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
