@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 185.0, 250.0, 1379.0, 644.0 ],
+		"rect" : [ 184.0, 250.0, 1379.0, 644.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -340,8 +340,10 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "Release[1]",
-							"parameter_mmax" : 3.0,
+							"parameter_modmode" : 4,
+							"parameter_mmax" : 15.0,
 							"parameter_shortname" : "Release",
+							"parameter_modmax" : 15.0,
 							"parameter_enum" : [ "0", "+1E", "+2E", "+3E", "0", "-1E", "-2E", "-3E" ],
 							"parameter_type" : 1,
 							"parameter_unitstyle" : 0
@@ -370,8 +372,10 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "Amp 2[1]",
-							"parameter_mmax" : 3.0,
+							"parameter_modmode" : 4,
+							"parameter_mmax" : 15.0,
 							"parameter_shortname" : "Amp 2",
+							"parameter_modmax" : 15.0,
 							"parameter_enum" : [ "0", "+1E", "+2E", "+3E", "0", "-1E", "-2E", "-3E" ],
 							"parameter_type" : 1,
 							"parameter_unitstyle" : 0
@@ -400,8 +404,10 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "Decay 2[1]",
-							"parameter_mmax" : 3.0,
+							"parameter_modmode" : 4,
+							"parameter_mmax" : 15.0,
 							"parameter_shortname" : "Decay 2",
+							"parameter_modmax" : 15.0,
 							"parameter_enum" : [ "0", "+1E", "+2E", "+3E", "0", "-1E", "-2E", "-3E" ],
 							"parameter_type" : 1,
 							"parameter_unitstyle" : 0
@@ -430,8 +436,10 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "Attack[1]",
-							"parameter_mmax" : 3.0,
+							"parameter_modmode" : 4,
+							"parameter_mmax" : 31.0,
 							"parameter_shortname" : "Attack",
+							"parameter_modmax" : 31.0,
 							"parameter_enum" : [ "0", "+1E", "+2E", "+3E", "0", "-1E", "-2E", "-3E" ],
 							"parameter_type" : 1,
 							"parameter_unitstyle" : 0
@@ -581,8 +589,10 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "Decay 1[1]",
-							"parameter_mmax" : 3.0,
+							"parameter_modmode" : 4,
+							"parameter_mmax" : 31.0,
 							"parameter_shortname" : "Decay 1",
+							"parameter_modmax" : 31.0,
 							"parameter_enum" : [ "0", "+1E", "+2E", "+3E", "0", "-1E", "-2E", "-3E" ],
 							"parameter_type" : 1,
 							"parameter_unitstyle" : 0
