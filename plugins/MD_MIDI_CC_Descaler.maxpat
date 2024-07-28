@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 219.0, 151.0, 920.0, 458.0 ],
+		"rect" : [ 521.0, 293.0, 618.0, 579.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -40,7 +40,19 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
-					"comment" : "",
+					"id" : "obj-11",
+					"linecount" : 3,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 281.0, 304.5, 150.0, 47.0 ],
+					"text" : "#1 = Base CC\n#2 = Range\n#3 ??"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"comment" : "offset in",
 					"id" : "obj-8",
 					"index" : 0,
 					"maxclass" : "inlet",
@@ -149,7 +161,7 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "",
+					"comment" : "value in",
 					"id" : "obj-1",
 					"index" : 0,
 					"maxclass" : "inlet",

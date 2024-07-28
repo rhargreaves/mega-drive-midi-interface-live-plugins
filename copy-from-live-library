@@ -3,7 +3,6 @@ set -euo pipefail
 
 USER_LIB=~/Music/Ableton/User\ Library/Presets/MIDI\ Effects/Max\ MIDI\ Effect
 
-cp "$USER_LIB/MD_MIDI_CC_Scaler.maxpat" plugins/
-cp "$USER_LIB/Mega Drive FM Channel.amxd" plugins/
-cp "$USER_LIB/Mega Drive FM Operator.maxpat" plugins/
-cp "$USER_LIB/Mega Drive FM Global.amxd" plugins/
+cp "$USER_LIB/Mega Drive FM *" plugins/
+cp "$USER_LIB/MD_MIDI_CC_*.maxpat" plugins/
+
