@@ -1,8 +1,8 @@
 #!/bin/bash
 set -euo pipefail
+shopt -s nullglob
 
-USER_LIB=~/Music/Ableton/User\ Library/Presets/MIDI\ Effects/Max\ MIDI\ Effect
+USER_LIB="$HOME/Music/Ableton/User Library/Presets/MIDI Effects/Max MIDI Effect"
 
-cp "$USER_LIB/Mega Drive FM *" plugins/
-cp "$USER_LIB/MD_MIDI_CC_*.maxpat" plugins/
-
+cp "$USER_LIB"/Mega\ Drive\ FM* plugins/
+cp "$USER_LIB"/MD_MIDI_CC_*.maxpat plugins/
