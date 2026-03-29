@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 517.0, 241.0, 1275.0, 665.0 ],
+		"rect" : [ 34.0, 94.0, 1082.0, 695.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,31 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-35",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 11,
+					"outlettype" : [ "int", "int", "int", "int", "int", "int", "int", "int", "int", "int", "int" ],
+					"patching_rect" : [ 297.0, -39.0, 218.0, 22.0 ],
+					"text" : "unpack i i i i i i i i i i i"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"comment" : "",
+					"id" : "obj-2",
+					"index" : 2,
+					"maxclass" : "inlet",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 237.0, -92.0, 30.0, 30.0 ]
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-42",
 					"maxclass" : "newobj",
@@ -352,7 +377,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-1",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -393,7 +418,7 @@
 					"presentation_rect" : [ 386.333334684371948, 44.416666567325592, 44.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "SSG-EG[1]",
+							"parameter_longname" : "SSG-EG[6]",
 							"parameter_mmax" : 15.0,
 							"parameter_shortname" : "SSG-EG",
 							"parameter_type" : 1,
@@ -421,7 +446,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "Amp. Mod.[1]",
+							"parameter_longname" : "Amp. Mod.[6]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "Amp. Mod.",
 							"parameter_type" : 2
@@ -463,7 +488,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "0", "+1E", "+2E", "+3E", "0", "-1E", "-2E", "-3E" ],
-							"parameter_longname" : "Release[1]",
+							"parameter_longname" : "Release[6]",
 							"parameter_mmax" : 15.0,
 							"parameter_modmax" : 15.0,
 							"parameter_modmode" : 4,
@@ -507,7 +532,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "0", "+1E", "+2E", "+3E", "0", "-1E", "-2E", "-3E" ],
-							"parameter_longname" : "Sustain",
+							"parameter_longname" : "Sustain[2]",
 							"parameter_mmax" : 15.0,
 							"parameter_modmax" : 15.0,
 							"parameter_modmode" : 4,
@@ -551,7 +576,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "0", "+1E", "+2E", "+3E", "0", "-1E", "-2E", "-3E" ],
-							"parameter_longname" : "Decay 2[1]",
+							"parameter_longname" : "Decay 2[6]",
 							"parameter_mmax" : 15.0,
 							"parameter_modmax" : 15.0,
 							"parameter_modmode" : 4,
@@ -595,7 +620,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "0", "+1E", "+2E", "+3E", "0", "-1E", "-2E", "-3E" ],
-							"parameter_longname" : "Attack[1]",
+							"parameter_longname" : "Attack[6]",
 							"parameter_mmax" : 31.0,
 							"parameter_modmax" : 31.0,
 							"parameter_modmode" : 4,
@@ -639,7 +664,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "0", "+1E", "+2E", "+3E", "0", "-1E", "-2E", "-3E" ],
-							"parameter_longname" : "R. Scale[1]",
+							"parameter_longname" : "R. Scale[6]",
 							"parameter_mmax" : 3.0,
 							"parameter_shortname" : "R. Scale",
 							"parameter_type" : 1,
@@ -681,7 +706,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "0", "+1E", "+2E", "+3E", "0", "-1E", "-2E", "-3E" ],
-							"parameter_longname" : "Detune[1]",
+							"parameter_longname" : "Detune[6]",
 							"parameter_mmax" : 7,
 							"parameter_shortname" : "Detune",
 							"parameter_type" : 2,
@@ -723,7 +748,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "0.5", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15" ],
-							"parameter_longname" : "Total Level[2]",
+							"parameter_longname" : "Total Level[9]",
 							"parameter_mmax" : 15,
 							"parameter_shortname" : "Multiple",
 							"parameter_type" : 2,
@@ -764,7 +789,7 @@
 						}
 ,
 						"valueof" : 						{
-							"parameter_longname" : "Total Level[3]",
+							"parameter_longname" : "Total Level[12]",
 							"parameter_modmode" : 4,
 							"parameter_shortname" : "T. Level",
 							"parameter_type" : 1,
@@ -816,7 +841,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "0", "+1E", "+2E", "+3E", "0", "-1E", "-2E", "-3E" ],
-							"parameter_longname" : "Decay 1[1]",
+							"parameter_longname" : "Decay 1[6]",
 							"parameter_mmax" : 31.0,
 							"parameter_modmax" : 31.0,
 							"parameter_modmode" : 4,
@@ -845,7 +870,14 @@
 					"patching_rect" : [ 503.0, 58.25, 47.0, 39.75 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 0.0, 438.0, 67.216666758060455 ],
-					"proportion" : 0.5
+					"proportion" : 0.5,
+					"saved_attribute_attributes" : 					{
+						"bgfillcolor" : 						{
+							"expression" : ""
+						}
+
+					}
+
 				}
 
 			}
@@ -1112,6 +1144,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-35", 0 ],
+					"source" : [ "obj-2", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-28", 0 ],
 					"source" : [ "obj-20", 0 ]
 				}
@@ -1282,6 +1321,105 @@
 			}
 , 			{
 				"patchline" : 				{
+					"color" : [ 0.059471659362316, 0.501942574977875, 0.998464584350586, 1.0 ],
+					"destination" : [ "obj-10", 0 ],
+					"midpoints" : [ 346.300000000000011, 168.0, 789.0, 168.0, 789.0, 264.0, 806.0, 264.0 ],
+					"source" : [ "obj-35", 2 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"color" : [ 0.059471659362316, 0.501942574977875, 0.998464584350586, 1.0 ],
+					"destination" : [ "obj-11", 0 ],
+					"midpoints" : [ 386.100000000000023, 324.0, 366.0, 324.0, 366.0, 438.0, 273.0, 438.0, 273.0, 492.0, 113.5, 492.0 ],
+					"source" : [ "obj-35", 4 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"color" : [ 0.059471659362316, 0.501942574977875, 0.998464584350586, 1.0 ],
+					"destination" : [ "obj-12", 0 ],
+					"midpoints" : [ 445.800000000000011, 168.0, 381.0, 168.0, 381.0, 324.0, 366.0, 324.0, 366.0, 438.0, 273.0, 438.0, 273.0, 486.0, 296.5, 486.0 ],
+					"source" : [ "obj-35", 7 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"color" : [ 0.059471659362316, 0.501942574977875, 0.998464584350586, 1.0 ],
+					"destination" : [ "obj-13", 0 ],
+					"midpoints" : [ 425.899999999999977, 168.0, 381.0, 168.0, 381.0, 324.0, 372.0, 324.0, 372.0, 438.0, 477.0, 438.0, 477.0, 486.0, 480.5, 486.0 ],
+					"source" : [ "obj-35", 6 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"color" : [ 0.059471659362316, 0.501942574977875, 0.998464584350586, 1.0 ],
+					"destination" : [ "obj-14", 0 ],
+					"midpoints" : [ 465.699999999999989, 168.0, 579.0, 168.0, 579.0, 447.0, 666.0, 447.0, 666.0, 495.0, 690.5, 495.0 ],
+					"source" : [ "obj-35", 8 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"color" : [ 0.059471659362316, 0.501942574977875, 0.998464584350586, 1.0 ],
+					"destination" : [ "obj-18", 0 ],
+					"midpoints" : [ 406.0, 168.0, 579.0, 168.0, 579.0, 408.0, 867.0, 408.0, 867.0, 507.0, 901.5, 507.0 ],
+					"source" : [ "obj-35", 5 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"color" : [ 0.059471659362316, 0.501942574977875, 0.998464584350586, 1.0 ],
+					"destination" : [ "obj-20", 0 ],
+					"midpoints" : [ 505.5, 9.0, 1050.0, 9.0, 1050.0, 552.0, 1074.0, 552.0 ],
+					"source" : [ "obj-35", 10 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"color" : [ 0.059471659362316, 0.501942574977875, 0.998464584350586, 1.0 ],
+					"destination" : [ "obj-3", 0 ],
+					"midpoints" : [ 485.600000000000023, 168.0, 39.0, 168.0, 39.0, 228.0, -41.5, 228.0 ],
+					"source" : [ "obj-35", 9 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"color" : [ 0.059471659362316, 0.501942574977875, 0.998464584350586, 1.0 ],
+					"destination" : [ "obj-4", 0 ],
+					"midpoints" : [ 306.5, 177.0, 192.0, 177.0, 192.0, 240.0, 228.5, 240.0 ],
+					"source" : [ "obj-35", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"color" : [ 0.059471659362316, 0.501942574977875, 0.998464584350586, 1.0 ],
+					"destination" : [ "obj-6", 0 ],
+					"midpoints" : [ 326.399999999999977, 177.0, 393.0, 177.0, 393.0, 255.0, 422.5, 255.0 ],
+					"source" : [ "obj-35", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"color" : [ 0.059471659362316, 0.501942574977875, 0.998464584350586, 1.0 ],
+					"destination" : [ "obj-7", 0 ],
+					"midpoints" : [ 366.199999999999989, 168.0, 594.0, 168.0, 594.0, 240.0, 618.5, 240.0 ],
+					"source" : [ "obj-35", 3 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"color" : [ 0.799788117408752, 0.617275238037109, 1.0, 1.0 ],
 					"destination" : [ "obj-11", 0 ],
 					"midpoints" : [ 107.5, 489.0, 113.5, 489.0 ],
@@ -1362,42 +1500,14 @@
 
 			}
  ],
-		"parameters" : 		{
-			"obj-10" : [ "Attack[1]", "Attack", 0 ],
-			"obj-11" : [ "Decay 1[1]", "Decay 1", 0 ],
-			"obj-12" : [ "Decay 2[1]", "Decay 2", 0 ],
-			"obj-13" : [ "Sustain", "Sustain", 0 ],
-			"obj-14" : [ "Release[1]", "Release", 0 ],
-			"obj-18" : [ "Amp. Mod.[1]", "Amp. Mod.", 0 ],
-			"obj-20" : [ "SSG-EG[1]", "SSG-EG", 0 ],
-			"obj-3" : [ "Total Level[3]", "T. Level", 0 ],
-			"obj-4" : [ "Total Level[2]", "Multiple", 0 ],
-			"obj-6" : [ "Detune[1]", "Detune", 0 ],
-			"obj-7" : [ "R. Scale[1]", "R. Scale", 0 ],
-			"parameterbanks" : 			{
+		"editing_bgcolor" : [ 0.333333333333333, 0.333333333333333, 0.333333333333333, 1.0 ],
+		"saved_attribute_attributes" : 		{
+			"editing_bgcolor" : 			{
+				"expression" : ""
+			}
 
-			}
-,
-			"inherited_shortname" : 1
 		}
-,
-		"dependency_cache" : [ 			{
-				"name" : "MD_MIDI_CC_Reader.maxpat",
-				"bootpath" : "~/Music/Ableton/User Library/Presets/MIDI Effects/Max MIDI Effect",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "MD_MIDI_CC_Writer.maxpat",
-				"bootpath" : "~/Music/Ableton/User Library/Presets/MIDI Effects/Max MIDI Effect",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
- ],
-		"autosave" : 0,
-		"editing_bgcolor" : [ 0.333333333333333, 0.333333333333333, 0.333333333333333, 1.0 ]
+
 	}
 
 }
